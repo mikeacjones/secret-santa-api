@@ -1,0 +1,23 @@
+{
+  "name": "secret-santa-api",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "API for handling secret santa",
+  "main": "server.js",
+  "author": "u/thisisverytricky",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
