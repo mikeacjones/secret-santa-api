@@ -10,9 +10,9 @@ redditService.connect(config.reddit.client_id, config.reddit.client_secret, conf
 mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true }).then(_ => {
   app.use(express.urlencoded({ extended: true }))
   app.use(express.json())
-  app.use('/oauth', require('./routers/oauth'))
-  app.use('/reddit', require('./routers/reddit'))
-  app.use('/campaigns', require('./routers/campaigns'))
+  app.use('/v1/oauth', require('./routers/oauth'))
+  app.use('/v1/reddit', require('./routers/reddit'))
+  app.use('/v1/campaigns', require('./routers/campaigns'))
   app.use(require('./middleware/errorhandler'))
 
   app.listen(config.port)
