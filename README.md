@@ -18,8 +18,6 @@
   <p align="center">
     This API drives the secret santa web app being used by r/pen_swap
     <br />
-    <a href="https://github.com/mikeacjones/secret-santa-api"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="issues">Report Bug</a>
     ·
